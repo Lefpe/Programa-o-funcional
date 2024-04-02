@@ -28,3 +28,4 @@ main = do
   nStr <- getLine
   let n = read nStr :: Int
   putStrLn $ "O " ++ show n ++ "º número primo na sequência de Fibonacci é: " ++ show (fibonacciPrimo n)
+--refeita
